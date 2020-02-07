@@ -27,7 +27,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:srcCompat="@drawable/image1" />
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/myTextField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter amount in dollars"
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        app:layout_constraintTop_toBottomOf="@id/editText"
+        app:layout_constraintTop_toBottomOf="@id/myTextField"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:text="CONVERT"
