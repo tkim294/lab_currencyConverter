@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickFunction(View view) {
         EditText myTextField = (EditText) findViewById(R.id.myTextField);
-        //Toast.makeText(MainActivity.this, myTextField.getText().toString(), Toast.LENGTH_LONG).show();
+        //Toast.makeText(MainActivity.this, myTextField.getTextht().toString(), Toast.LENGTH_LONG).show();
         String str = myTextField.getText().toString();
 
         goToActivity2(str);
