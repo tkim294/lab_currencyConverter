@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class Main2Activity extends AppCompatActivity {
 
     TextView textView2;
@@ -20,6 +18,7 @@ public class Main2Activity extends AppCompatActivity {
         textView2 = (TextView) findViewById(R.id.textView2);
         Intent intent = getIntent();
         String str = intent.getStringExtra("message");
-        textView2.setText("Hello " + str);
+        double amount = Double.valueOf(str);
+        textView2.setText("£" + amount * 0.77);
     }
 }
